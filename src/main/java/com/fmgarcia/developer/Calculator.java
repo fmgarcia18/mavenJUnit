@@ -53,7 +53,11 @@ public class Calculator implements ICalculator{
      * @param num2
      * @return la division de dos numeros
      */
-    public int div(int num1, int num2) {
-        return 0;
+    public int div(int num1, int num2){
+
+        int result = num1 / num2;
+
+        return result;
+
     }
 }
