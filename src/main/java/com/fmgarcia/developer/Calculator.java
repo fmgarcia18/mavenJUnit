@@ -30,7 +30,9 @@ public class Calculator implements ICalculator{
      * @return la resta de dos numeros
      */
     public int sub(int num1, int num2) {
-        return 0;
+
+        int result = num1 - num2;
+        return result;
     }
 
     /**
